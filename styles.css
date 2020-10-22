@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f5e3;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  font-family: helvetica;
+  margin-left: 5px;
+}
+
+.card {
+  width: 300px;
+  position: relative;
+  border: 1px solid gray;
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.card img {
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  color: white;
+}
+
+.controls {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+i {
+  font-size: 30px;
+}
+
+i.fa-times {
+  color: #e74c3c;
+}
+
+i.fa-heart {
+  color: #58d68d;
+}
+
+i.fa-canadian-maple-leaf {
+  font-size: 15px;
+  color: #dc143c;
+}
+
+h3 {
+  text-align: center;
+}
+.matches {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.again {
+  display: none;
+  text-align: center;
+  margin: 20px auto;
+}
